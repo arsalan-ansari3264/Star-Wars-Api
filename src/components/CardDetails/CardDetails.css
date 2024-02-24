@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card-details-container {
+    display: flex;
+    height: 350px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.card-details-container img {
+    width: 300px;
+    object-fit: contain;
+    position: relative;
+}
